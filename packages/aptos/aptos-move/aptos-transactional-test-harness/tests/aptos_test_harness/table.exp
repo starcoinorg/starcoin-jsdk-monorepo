@@ -1,0 +1,63 @@
+processed 8 tasks
+
+task 1 'run'. lines 6-8:
+Events:
+{
+    key:     0400000000000000f75daa73fc071f93593335eb9033da804777eb94491650dd3f095ce6f778acb6
+    seq_num: 0
+    type:    0x3::token::CreateCollectionEvent
+    data:    "f75daa73fc071f93593335eb9033da804777eb94491650dd3f095ce6f778acb60b6170746f735f70756e6b7300006400000000000000"
+}mutable inputs after call: local#0: 0
+return values: 0
+
+task 2 'run'. lines 9-9:
+Error: Transaction discarded. VMStatus: status MAX_GAS_UNITS_BELOW_MIN_TRANSACTION_GAS_UNITS of type Validation
+
+task 3 'view'. lines 11-11:
+key 0x3::token::Collections {
+    collection_data: store 0x1::table::Table<0x1::string::String, 0x3::token::CollectionData> {
+        handle: 5adf7712b6186bb577ebd9e2067ef3d46014f5bb5fa1c457f51a334295affe9a
+    }
+    token_data: store 0x1::table::Table<0x3::token::TokenDataId, 0x3::token::TokenData> {
+        handle: 630c3a2b1a1f2a5a9d112eb98bfe1b35265a16f1482e6224950abd8ad4c76d52
+    }
+    create_collection_events: store 0x1::event::EventHandle<0x3::token::CreateCollectionEvent> {
+        counter: 1
+        guid: drop store 0x1::guid::GUID {
+            id: copy drop store 0x1::guid::ID {
+                creation_num: 4
+                addr: f75daa73fc071f93593335eb9033da804777eb94491650dd3f095ce6f778acb6
+            }
+        }
+    }
+    create_token_data_events: store 0x1::event::EventHandle<0x3::token::CreateTokenDataEvent> {
+        counter: 0
+        guid: drop store 0x1::guid::GUID {
+            id: copy drop store 0x1::guid::ID {
+                creation_num: 5
+                addr: f75daa73fc071f93593335eb9033da804777eb94491650dd3f095ce6f778acb6
+            }
+        }
+    }
+    mint_token_events: store 0x1::event::EventHandle<0x3::token::MintTokenEvent> {
+        counter: 0
+        guid: drop store 0x1::guid::GUID {
+            id: copy drop store 0x1::guid::ID {
+                creation_num: 6
+                addr: f75daa73fc071f93593335eb9033da804777eb94491650dd3f095ce6f778acb6
+            }
+        }
+    }
+}
+
+task 4 'view_table'. lines 13-15:
+{"description":"","maximum":"100","mutability_config":{"description":false,"maximum":false,"uri":false},"name":"aptos_punks","supply":"0","uri":""}
+
+task 5 'run'. lines 16-18:
+Error: Transaction discarded. VMStatus: status MAX_GAS_UNITS_BELOW_MIN_TRANSACTION_GAS_UNITS of type Validation
+
+task 6 'run'. lines 19-19:
+Error: Failed to execute transaction. ExecutionStatus: status MISSING_DATA of type Execution
+
+task 7 'view_table'. lines 21-21:
+Error: Failed to fetch table item.
