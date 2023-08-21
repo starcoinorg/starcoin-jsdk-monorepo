@@ -2,13 +2,13 @@
   "name": "@starcoin-org/post-message-stream",
   "version": "6.1.2",
   "description": "Sets up a duplex object stream over window.postMessage",
-  "homepage": "https://github.com/MetaMask/post-message-stream#readme",
+  "homepage": "https://github.com/starcoinorg/starcoin-jsdk-monorepo/packages/post-message-stream#readme",
   "bugs": {
-    "url": "https://github.com/MetaMask/post-message-stream/issues"
+    "url": "https://github.com/starcoinorg/packages/post-message-stream/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MetaMask/post-message-stream.git"
+    "url": "https://github.com/starcoinorg/packages/post-message-stream.git"
   },
   "license": "ISC",
   "main": "dist/index.js",
@@ -25,7 +25,7 @@
     "lint:eslint": "eslint . --cache --ext js,ts",
     "lint:fix": "yarn lint:eslint --fix && yarn lint:misc --write",
     "lint:misc": "prettier '**/*.json' '**/*.md' '!CHANGELOG.md' '**/*.yml' --ignore-path .gitignore --no-error-on-unmatched-pattern",
-    "prepublishOnly": "yarn build:clean && yarn lint && yarn test",
+    "prepublishOnlys": "yarn build:clean && yarn lint && yarn test",
     "setup": "yarn install && yarn allow-scripts",
     "pretest": "yarn build:test",
     "test": "jest && jest-it-up",
