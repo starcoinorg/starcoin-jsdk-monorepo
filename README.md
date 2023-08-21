@@ -1,7 +1,7 @@
 # starcoin-jsdk-monorepo
 
 ```javascript
-     "@starcoin/aptos": "^1.3.16",
+    "@starcoin/aptos": "^1.3.16",
     "@starcoin/contract-metadata": "^0.6.0",
     "@starcoin/starcoin": "2.3.1",
     "@starcoin/stc-block-tracker": "^0.1.0",
