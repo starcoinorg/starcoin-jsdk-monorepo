@@ -1,5 +1,5 @@
 {
-  "name": "@starcoin/stc-keyring-controller",
+  "name": "@starcoin-org/stc-keyring-controller",
   "version": "1.7.0",
   "description": "A module for managing various keyrings of Starcoin accounts, encrypting them, and using them.",
   "main": "index.js",

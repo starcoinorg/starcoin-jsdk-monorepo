@@ -1,5 +1,5 @@
 {
-  "name": "@starcoin/stc-nonce-tracker",
+  "name": "@starcoin-org/stc-nonce-tracker",
   "version": "0.2.0",
   "description": "Transaction nonce calculation used in StarMask.",
   "main": "dist/index.js",

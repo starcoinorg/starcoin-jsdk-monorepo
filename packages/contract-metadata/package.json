@@ -1,5 +1,5 @@
 {
-  "name": "@starcoin/contract-metadata",
+  "name": "@starcoin-org/contract-metadata",
   "version": "0.6.0",
   "description": "A mapping of starcoin contract addresses to broadly accepted icons for those addresses.",
   "main": "index.js",

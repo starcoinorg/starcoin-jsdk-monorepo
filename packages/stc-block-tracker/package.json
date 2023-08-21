@@ -1,5 +1,5 @@
 {
-  "name": "@starcoin/stc-block-tracker",
+  "name": "@starcoin-org/stc-block-tracker",
   "version": "0.1.0",
   "description": "A block tracker for the Starcoin blockchain. Keeps track of the latest block.",
   "publishConfig": {

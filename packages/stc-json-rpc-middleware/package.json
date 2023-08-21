@@ -1,5 +1,5 @@
 {
-  "name": "@starcoin/stc-json-rpc-middleware",
+  "name": "@starcoin-org/stc-json-rpc-middleware",
   "version": "0.1.0",
   "main": "block-ref.js",
   "directories": {

@@ -1,5 +1,5 @@
 {
-  "name": "@starcoin/stc-query",
+  "name": "@starcoin-org/stc-query",
   "version": "0.4.1",
   "description": "like web3 but for minimalists",
   "main": "index.js",
